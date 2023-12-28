@@ -1,5 +1,5 @@
 - name : "installing {{component}}"
-  hosts: "{{component}}"
+  hosts: localhost
   become: yes
   roles:
     "{{component}}"
