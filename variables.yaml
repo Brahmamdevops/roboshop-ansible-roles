@@ -8,3 +8,4 @@ CART_HOST: cart.mvaws.online
 SHIPPING_HOST: shipping.mvaws.online
 PAYMENT_HOST: payment.mvaws.online
 DISPATCH_HOST: dispatch.mvaws.online
+DISPATCH_HOST: web.mvaws.online
