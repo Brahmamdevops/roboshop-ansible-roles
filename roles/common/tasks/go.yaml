@@ -4,9 +4,7 @@
     state: present
 
 - name: installing
-  ansible.builtin.command:
-    name: "{{item}}"
-    state: present
+  ansible.builtin.command: "{{item}}"
   loop:
   - go mod init dispatch
   - go get 
