@@ -25,7 +25,7 @@
     remote_src: yes
 
 - name: Copy file with owner and permissions
-  ansible.builtin.copy:
+  ansible.builtin.template:
     src: roboshop.conf.j2
     dest: /etc/nginx/default.d/roboshop.conf
 
